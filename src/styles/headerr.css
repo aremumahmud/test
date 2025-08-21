@@ -1,0 +1,52 @@
+.logo img {
+    width: 30px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.cta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.cta div:first-child {
+    font-weight: bold;
+}
+
+
+.cta div:last-child {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
